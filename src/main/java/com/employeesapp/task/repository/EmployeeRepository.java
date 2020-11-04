@@ -1,11 +1,11 @@
-package com.ahmadsolehin.SUSAHCRUDNIE.repository;
+package com.employeesapp.task.repository;
 
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.ahmadsolehin.SUSAHCRUDNIE.model.Employee;
+import com.employeesapp.task.model.Employee;
 
 public interface EmployeeRepository extends CrudRepository<Employee, Integer> {
 

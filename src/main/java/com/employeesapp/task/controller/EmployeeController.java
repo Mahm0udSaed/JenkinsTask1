@@ -1,4 +1,4 @@
-package com.ahmadsolehin.SUSAHCRUDNIE.controller;
+package com.employeesapp.task.controller;
 
 import javax.validation.Valid;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.ahmadsolehin.SUSAHCRUDNIE.model.Employee;
-import com.ahmadsolehin.SUSAHCRUDNIE.service.EmployeeService;
+import com.employeesapp.task.model.Employee;
+import com.employeesapp.task.service.EmployeeService;
 
 @Controller
 public class EmployeeController {

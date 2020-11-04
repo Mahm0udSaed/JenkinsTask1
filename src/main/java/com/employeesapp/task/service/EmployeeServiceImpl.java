@@ -1,12 +1,12 @@
-package com.ahmadsolehin.SUSAHCRUDNIE.service;
+package com.employeesapp.task.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ahmadsolehin.SUSAHCRUDNIE.model.Employee;
-import com.ahmadsolehin.SUSAHCRUDNIE.repository.EmployeeRepository;
+import com.employeesapp.task.model.Employee;
+import com.employeesapp.task.repository.EmployeeRepository;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

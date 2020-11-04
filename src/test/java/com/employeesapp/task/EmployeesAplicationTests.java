@@ -1,4 +1,4 @@
-package com.ahmadsolehin.SUSAHCRUDNIE;
+package com.employeesapp.task;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SusahcrudnieApplicationTests {
+public class EmployeesAplicationTests {
 
 	@Test
 	public void contextLoads() {

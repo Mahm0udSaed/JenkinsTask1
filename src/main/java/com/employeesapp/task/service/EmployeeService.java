@@ -1,6 +1,6 @@
-package com.ahmadsolehin.SUSAHCRUDNIE.service;
+package com.employeesapp.task.service;
 import java.util.List;
-import com.ahmadsolehin.SUSAHCRUDNIE.model.Employee;
+import com.employeesapp.task.model.Employee;
 
 public interface EmployeeService {
     Iterable<Employee> findAll();
